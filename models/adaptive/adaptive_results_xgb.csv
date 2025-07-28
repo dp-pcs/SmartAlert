@@ -1,0 +1,46 @@
+round,model_name,cumulative_samples,batch_samples,feature_count,drift_detected,drift_amount,precision,recall,f1,accuracy,auc,specificity,sensitivity,true_positives,true_negatives,false_positives,false_negatives,classification_report,total_samples,issue_rate,batch_issue_rate,issues_in_test,cases_with_predictions,unique_cases,logs_with_cases
+1,xgb,8000,8000,35,False,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,20,1580,0,0,"              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1580
+           1       1.00      1.00      1.00        20
+
+    accuracy                           1.00      1600
+   macro avg       1.00      1.00      1.00      1600
+weighted avg       1.00      1.00      1.00      1600
+",8000,0.01275,0.01275,20,0,245,734
+2,xgb,16000,8000,35,False,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,47,3153,0,0,"              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3153
+           1       1.00      1.00      1.00        47
+
+    accuracy                           1.00      3200
+   macro avg       1.00      1.00      1.00      3200
+weighted avg       1.00      1.00      1.00      3200
+",16000,0.014625,0.0165,47,0,523,1569
+3,xgb,24000,8000,35,False,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,79,4721,0,0,"              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4721
+           1       1.00      1.00      1.00        79
+
+    accuracy                           1.00      4800
+   macro avg       1.00      1.00      1.00      4800
+weighted avg       1.00      1.00      1.00      4800
+",24000,0.0165,0.02025,79,0,796,2388
+4,xgb,32000,8000,35,False,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,113,6287,0,0,"              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      6287
+           1       1.00      1.00      1.00       113
+
+    accuracy                           1.00      6400
+   macro avg       1.00      1.00      1.00      6400
+weighted avg       1.00      1.00      1.00      6400
+",32000,0.017625,0.021,113,0,1055,3165
+5,xgb,40000,8000,35,False,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,140,7860,0,0,"              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      7860
+           1       1.00      1.00      1.00       140
+
+    accuracy                           1.00      8000
+   macro avg       1.00      1.00      1.00      8000
+weighted avg       1.00      1.00      1.00      8000
+",40000,0.01755,0.01725,140,0,1341,4023
