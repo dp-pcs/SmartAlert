@@ -150,9 +150,14 @@ SmartAlert/
 │   ├── injection_harness.py         # V3 adaptive system
 │   ├── injection_harness_v4.py      # V4 basic (failed)
 │   └── injection_harness_v4_enhanced.py # 🎯 V4 SUCCESS!
-└── 📚 Documentation
-    ├── README.md                    # This file
-    └── TECHNICAL_ANALYSIS.md        # Deep dive analysis
+├── 📚 Documentation
+│   ├── README.md                    # This file
+│   └── TECHNICAL_ANALYSIS.md        # Deep dive analysis
+└── 🤝 Community Standards
+    ├── CODE_OF_CONDUCT.md           # Community guidelines
+    ├── CONTRIBUTING.md              # How to contribute
+    ├── SECURITY.md                  # Security policy
+    └── .github/                     # Issue & PR templates
 ```
 
 ## 🔮 What's Next?
@@ -184,15 +189,42 @@ SmartAlert/
 
 ## 🤝 Contributing
 
-We welcome contributions! Key areas:
+We welcome contributions from the community! SmartAlert is an open-source project that thrives on collaboration and innovation.
+
+### **🎯 Key Contribution Areas**
 - **Feature Engineering**: New ways to extract signals from logs
 - **Model Architecture**: Advanced ML/DL approaches  
 - **Evaluation Metrics**: Business-oriented performance measures
 - **Production Tools**: Deployment, monitoring, scaling solutions
+- **Documentation**: Improving guides and examples
+- **Testing**: Expanding test coverage and quality
+
+### **📋 Getting Started**
+1. Read our [Contributing Guide](CONTRIBUTING.md) for detailed instructions
+2. Review our [Code of Conduct](CODE_OF_CONDUCT.md) to understand our community standards
+3. Check existing [issues](https://github.com/yourusername/SmartAlert/issues) and [pull requests](https://github.com/yourusername/SmartAlert/pulls)
+4. Fork the repository and create a feature branch
+5. Make your changes and submit a pull request
+
+### **🔒 Security**
+If you discover a security vulnerability, please review our [Security Policy](SECURITY.md) and report it privately.
+
+### **📝 Issue Templates**
+We provide structured templates for:
+- 🐛 [Bug Reports](.github/ISSUE_TEMPLATE/bug_report.md)
+- ✨ [Feature Requests](.github/ISSUE_TEMPLATE/feature_request.md)
+- 📚 [Documentation Issues](.github/ISSUE_TEMPLATE/documentation.md)
+- ❓ [Questions](.github/ISSUE_TEMPLATE/question.md)
+
+### **🚀 Pull Request Process**
+- Use our [Pull Request Template](.github/pull_request_template.md)
+- Ensure all tests pass
+- Update documentation as needed
+- Follow our coding standards
 
 ## 📄 License
 
-MIT License - Feel free to use this groundbreaking system in your organization!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
